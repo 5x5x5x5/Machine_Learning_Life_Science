@@ -355,10 +355,10 @@ div.output_prompt {
     </aside>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[3]:</div>
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span class="o">!</span>jupyter nbconvert --to slides MLforLS.ipynb
+<div class=" highlight hl-ipython3"><pre><span class="o">!</span>jupyter nbconvert --to slides MLforLS.ipynb --post serve
 </pre></div>
 
 </div>
@@ -373,6 +373,11 @@ div.output_prompt {
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>[NbConvertApp] Converting notebook MLforLS.ipynb to slides
 [NbConvertApp] Writing 195518 bytes to MLforLS.slides.html
+[NbConvertApp] Redirecting reveal.js requests to https://cdn.jsdelivr.net/reveal.js/2.6.2
+Serving your slides at http://127.0.0.1:8000/MLforLS.slides.html
+Use Control-C to stop this server
+WARNING:tornado.access:404 GET /custom.css (127.0.0.1) 0.44ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.55ms
 </pre>
 </div>
 </div>
