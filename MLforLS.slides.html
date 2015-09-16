@@ -15,8 +15,8 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 
 <!-- General and theme style sheets -->
-<link rel="stylesheet" href="./css/reveal.css">
-<link rel="stylesheet" href="./css/theme/simple.css" id="theme">
+<link rel="stylesheet" href="/home/daniel/css/reveal.css">
+<link rel="stylesheet" href="/home/daniel/css/theme/simple.css" id="theme">
 
 <!-- If the query includes 'print-pdf', include the PDF print sheet -->
 <script>
@@ -24,14 +24,14 @@ if( window.location.search.match( /print-pdf/gi ) ) {
         var link = document.createElement( 'link' );
         link.rel = 'stylesheet';
         link.type = 'text/css';
-        link.href = './css/print/pdf.css';
+        link.href = '/home/daniel/css/print/pdf.css';
         document.getElementsByTagName( 'head' )[0].appendChild( link );
 }
 
 </script>
 
 <!--[if lt IE 9]>
-<script src="./lib/js/html5shiv.js"></script>
+<script src="/home/daniel/lib/js/html5shiv.js"></script>
 <![endif]-->
 
 <!-- Get Font-awesome from cdn -->
@@ -668,9 +668,9 @@ WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 0.47ms
 </div>
 </div>
 
-<script src="./lib/js/head.min.js"></script>
+<script src="/home/daniel/lib/js/head.min.js"></script>
 
-<script src="./js/reveal.js"></script>
+<script src="/home/daniel/js/reveal.js"></script>
 
 <script>
 
@@ -685,8 +685,8 @@ transition: Reveal.getQueryHash().transition || 'linear', // default/cube/page/c
 
 // Optional libraries used to extend on reveal.js
 dependencies: [
-{ src: "./lib/js/classList.js", condition: function() { return !document.body.classList; } },
-{ src: "./plugin/notes/notes.js", async: true, condition: function() { return !!document.body.classList; } }
+{ src: "/home/daniel/lib/js/classList.js", condition: function() { return !document.body.classList; } },
+{ src: "/home/daniel/plugin/notes/notes.js", async: true, condition: function() { return !!document.body.classList; } }
 ]
 });
 </script>
