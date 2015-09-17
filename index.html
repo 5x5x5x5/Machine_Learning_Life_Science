@@ -249,7 +249,24 @@ div.output_prompt {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Life Sciences - Anything that wiggles from 20nm to 30m</p>
+<p>Life Sciences - Anything that wiggles from 20nm to 30m in length</p>
+
+</div>
+</div>
+</div>
+    </div><div class="fragment" data-fragment-index="3">
+    
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Most of the subjects I will touch on are incredibly deep and worthy of their own talk. Thankfully, the Research Triangle Analysts have given some of them.</p>
+<ul>
+<li><a href="https://github.com/tdhopper/Research-Triangle-Analysts--Intro-to-scikit-learn/blob/master/Intro%20to%20Scikit-Learn.ipynb">Tim Hopper on scikit-learn</a></li>
+<li><a href="https://www.youtube.com/watch?v=mTiyFjMby9A">Python Data Science with Pandas</a></li>
+<li>Random Forests and Boosted Trees, aka The Entropy Of My Entropy Is My Friend by Dan Kelly</li>
+</ul>
 
 </div>
 </div>
@@ -285,8 +302,8 @@ div.output_prompt {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Remote laboratory services facilitated by <a href="https://www.scienceexchange.com/">Science Exchange</a><img src="img/Science_Exchange_logo.png"></p>
-<p>pic of science exchange services</p>
+<h2>Remote laboratory services facilitated by <a href="https://www.scienceexchange.com/">Science Exchange</a><img src="img/Science_Exchange_logo.png"></h2>
+<p><img src="img/sciexchange_screen.png"></p>
 
 </div>
 </div>
@@ -357,11 +374,12 @@ div.output_prompt {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Three-examples-with-three-techs">Three examples with three techs<a class="anchor-link" href="#Three-examples-with-three-techs">&#182;</a></h2><ul>
+<h2 id="Three-classification-problems-with-three-techs">Three classification problems with three techs<a class="anchor-link" href="#Three-classification-problems-with-three-techs">&#182;</a></h2><ul>
 <li>classification (QSAR) using scikit-learn in Python</li>
 <li>next gen sequencing (standard R processing pipeline) RNA-seq</li>
-<li>diagnostic image analysis with ConvNets in Python</li>
+<li>diagnostic image analysis with ConvNets in Python using Theano</li>
 </ul>
+<p>The emphasis is on finding commonalities of these analyses, like pipelines</p>
 
 </div>
 </div>
@@ -374,16 +392,17 @@ div.output_prompt {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Machine Learning</p>
-<p>1 Choose a representation</p>
-<p>2 Train a classifier 
- -Holdouts
- -Cross-validation
- -Classifier selection
- -Parameter search</p>
+<p><a href="http://www.r2d3.us/visual-intro-to-machine-learning-part-1/">Here is an excellent visualization of the process</a></p>
+<h2 id="Machine-Learning">Machine Learning<a class="anchor-link" href="#Machine-Learning">&#182;</a></h2><p>1 Choose a representation</p>
+<p>2 Train a classifier</p>
+<ul>
+<li>Holdouts</li>
+<li>Cross-validation</li>
+<li>Classifier selection</li>
+<li>Parameter search</li>
+</ul>
 <p>3 Make predictions</p>
 <p>4 Evaluation metrics</p>
-<p><a href="http://www.r2d3.us/visual-intro-to-machine-learning-part-1/">Here is an excellent visualization of the process</a></p>
 
 </div>
 </div>
@@ -414,10 +433,9 @@ div.output_prompt {
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Next-Gen-Sequencing---RNA-Seq">Next Gen Sequencing - <a href="http://rnaseq.uoregon.edu/">RNA-Seq</a><a class="anchor-link" href="#Next-Gen-Sequencing---RNA-Seq">&#182;</a></h2><p>Woodchipper</p>
-<p>Another simple problem</p>
-<p>Larger datasets</p>
-<p>Different level of problem</p>
-<p>Show R in Jupyter notebook</p>
+<p><a href="https://bioconductor.org/packages/release/bioc/vignettes/MLSeq/inst/doc/MLSeq.pdf">Another simple classification problem</a></p>
+<p>Dealing with larger datasets initially</p>
+<p><a href="https://github.com/5x5x5x5/Machine_Learning_Life_Science/blob/gh-pages/MLSeq%20walkthrough.ipynb">Show R in Jupyter notebook</a></p>
 
 </div>
 </div>
@@ -462,6 +480,16 @@ div.output_prompt {
 
 </div>
 </div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>We will start to see more models of biological systems that</p>
+
+</div>
+</div>
 </div></section>
     </section><section>
     <section>
@@ -499,11 +527,24 @@ div.output_prompt {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Thanks-for-listening.-Next-steps.">Thanks for listening. Next steps.<a class="anchor-link" href="#Thanks-for-listening.-Next-steps.">&#182;</a></h2><ul>
+<li><p>For the hackers</p>
 <ul>
-<li>Stay away from anything involving the FDA or HIPAA or humans in general.</li>
+<li>Stay away from anything making claims that would involve the FDA or HIPAA or humans in general.</li>
 <li>There is enough going on in your yard or compost pile or maybe even your fridge.</li>
-<li>Hoping to get better biological datasets and well publicized examples.</li>
-<li>More than Words</li>
+</ul>
+</li>
+<li><p>For the employed</p>
+<ul>
+<li>run a Software or Data Carpentry workshop within your school or research org.</li>
+</ul>
+</li>
+<li><p>For the enthusiast</p>
+<ul>
+<li>Help me start the <a href="http://www.meetup.com/The-Research-Triangle-BioCoders/">Research Triangle BioCoders</a></li>
+<li>Try to find public biological datasets and publish better tutorials and example analyses.</li>
+</ul>
+</li>
 </ul>
 
 </div>
